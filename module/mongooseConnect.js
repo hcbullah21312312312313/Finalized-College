@@ -4,15 +4,17 @@ console.log('Connected to the database'))
 const StudentsSchema=new mongoose.Schema({
     fname:String,
     lname:String,
-    fathername:String,
-    mothername:String,
+    fatherName:String,
+    matherName:String,
+    class:Number,
     email:String,
-    phone:String,
-    address:String,
-    education:String,
-    education:String,
+    rollno:Number,
+    age:String,
     gender:String,
-    courses:String,
-    collegeid:String
+    about:String,
+    designation:String,
+    dob:String,
+    address:String,
+    
 })
 module.exports=mongoose.model('students',StudentsSchema)

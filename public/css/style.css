@@ -1,6 +1,12 @@
 body{
-  zoom:75%;
-  margin: 0rem;
+  zoom: 0.75;
+  touch-action: pan-y;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 nav{
   padding-left: 1rem;
@@ -173,7 +179,19 @@ border-bottom: 1px solid #999; */
 font-family: 'Montserrat', sans-serif;
 }
 .news-box{
-  padding:3rem;
-  border: 1rem solid grey;
+  padding:2rem;
+  padding-left: 1rem;
+  padding-top: 0rem;
+  border: 0.1rem solid grey;
+  border-top: 2rem solid black;
   height:34rem ;
+  overflow: hidden;
 }
+p{
+  font-family: montserrat;
+}
+li{
+  font-size: 1.2rem;
+}
+
+
